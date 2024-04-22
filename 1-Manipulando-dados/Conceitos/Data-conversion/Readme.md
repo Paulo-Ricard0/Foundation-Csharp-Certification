@@ -63,8 +63,8 @@ int result = Convert.ToInt32(value1) * Convert.ToInt32(value2);
 Console.WriteLine(result); // Saída: 35 
 ```
 
->[!INFO] Observação
->Por que o nome do método é `ToInt32()`? Por que não `ToInt()`? `System.Int32` é o nome do tipo de dados subjacente na Biblioteca de Classes do .NET que a linguagem de programação C# mapeia para a palavra-chave `int`. Como a classe `Convert` também faz parte da Biblioteca de Classes do .NET, ela é chamada por seu nome completo, não pelo seu nome em C#. Definindo tipos de dados como parte da Biblioteca de Classes do .NET, várias linguagens .NET como Visual Basic, F#, IronPython e outras podem compartilhar os mesmos tipos de dados e as mesmas classes na Biblioteca de Classes do .NET.
+>### ℹ️ Observação
+>Por que o nome do método é `ToInt32()`? Por que não `ToInt()`? `System.Int32` é o nome do tipo de dados subjacente na Biblioteca de Classes do .NET que a linguagem de programação C# mapeia para a palavra-chave `int`. Como a classe `Convert` também faz parte da Biblioteca de Classes do .NET, ela é chamada por seu nome completo, não pelo seu nome em C#. Definindo tipos de dados como parte da Biblioteca de Classes do .NET, várias linguagens .NET como Visual Basic, F#, IronPython e outras podem compartilhar os mesmos tipos de dados e as mesmas classes na Biblioteca de Classes do .NET.
 
 ---
 ### Conversão com o Método Parse:
