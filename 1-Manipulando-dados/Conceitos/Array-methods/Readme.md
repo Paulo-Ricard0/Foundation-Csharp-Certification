@@ -103,3 +103,54 @@ Console.WriteLine(result); // Saída: 3,2,1,c,b,a
 
 ---
 
+### Array.IndexOf()
+- O método `Array.IndexOf()` retorna o índice da primeira ocorrência de um elemento específico em um array. Se o elemento não for encontrado, retorna -1.
+
+```csharp
+int[] numeros = { 1, 2, 3, 4, 5 };
+int indice = Array.IndexOf(numeros, 3);
+// indice é 2
+```
+
+---
+
+### Array.Find()
+- O método `Array.Find()` retorna o primeiro elemento de um array que satisfaz uma condição especificada.
+
+```csharp
+int[] numeros = { 1, 2, 3, 4, 5 };
+int primeiroPar = Array.Find(numeros, x => x % 2 == 0);
+// primeiroPar é 2
+```
+
+---
+
+### Array.FindAll()
+- O método `Array.FindAll()` retorna todos os elementos de um array que satisfazem uma condição especificada.
+
+```csharp
+int[] numeros = { 1, 2, 3, 4, 5 };
+int[] pares = Array.FindAll(numeros, x => x % 2 == 0);
+// pares é { 2, 4 }
+```
+
+---
+
+###  Array.Exists()
+- O método `Array.Exists()` determina se um elemento que satisfaz uma condição especificada existe em um array.
+
+```csharp
+int[] numeros = { 1, 2, 3, 4, 5 };
+bool existePar = Array.Exists(numeros, x => x % 2 == 0);
+// existePar é true
+```
+
+---
+### Array.ForEach()
+- O método `Array.ForEach()` executa uma ação em cada elemento de um array.
+
+```csharp
+int[] numeros = { 1, 2, 3, 4, 5 };
+Array.ForEach(numeros, x => Console.WriteLine(x));
+// Imprime cada número na linha de comando
+```
